@@ -1,0 +1,37 @@
+doctype html
+html(lang='ro')
+    include includes/head.jade
+    body.it.layout-21.page-98
+        include includes/top-menu.jade
+
+        .sub-menu
+            i#sub-menu-btn.fa.fa-bars
+            ul
+                li.active
+                    | Contact
+
+        .container
+            form#careers.careers(action='/index.php?controller=public-curriculum&action=save', method='POST', enctype='multipart/form-data')
+                input#languages_id(name='languages_id', value='1', type='hidden')
+                .row
+                    .col-sm-12.col-sm-offset-2(style='padding: 20px;')
+                        h1(style='margin-bottom: 20px;') Contact
+                        .form-group
+                            label.required.label-title(for='lastname') Cognome
+                            input#lastname.form-control(name='lastname', autocomplete='off', type='text', required='')
+                        .form-group
+                            label.required.label-title(for='firstname') Nome
+                            input#firstname.form-control(name='firstname', autocomplete='off', type='text', required='')
+                        .form-group
+                            label.required.label-title(for='email') Email
+                            input#email.form-control(name='email', autocomplete='off', type='email', required='')
+                        .form-group
+                            label.required.label-title(for='telephone') Telefono
+                            input#telephone.form-control(name='telephone', autocomplete='off', type='text', required='')
+                        .form-group
+                            label.required.label-title(for='message') Mesaj
+                            textarea#message.form-control(name='message', rows='8')
+                        .form-group(style='margin-top: 20px;')
+                            button#submit.btn.btn-send(type='submit', name='submit') Trimite
+
+        include includes/footer.jade

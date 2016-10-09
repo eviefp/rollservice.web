@@ -1,0 +1,8 @@
+.res .breadcrumbBox{display:none}
+.res-7 .breadcrumbBox{display:block}
+.breadcrumbBox{padding:20px 0px;font-weight:100;}
+.breadcrumbBox .sep{display:inline;margin: 0px 5px;}
+.breadcrumbBox a{text-transform:uppercase}
+.breadcrumbBox a:hover{color:#01333c;font-weight:bold;}
+
+.banner-top-30+.container .breadcrumbBox a:hover{color:#00a0e1}

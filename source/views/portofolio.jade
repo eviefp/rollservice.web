@@ -1,0 +1,88 @@
+doctype html
+html(lang='ro')
+    include includes/head.jade
+    body.it.layout-5.page-51
+        include includes/top-menu.jade
+
+        each item, index in portofolio
+            style(type='text/css').
+                @media screen and (min-width: 1200px)
+                {
+                .page-child-#{index} {
+                background: transparent url(#{item.mainImage}) no-repeat scroll center center;
+                background-size: cover;
+                }
+                }
+                @media screen and (max-width: 1199px)
+                {
+                .page-child-#{index} {
+                background: transparent url(#{item.mainImage}) no-repeat scroll center center;
+                background-size: cover;
+                }
+                }
+                @media screen and (max-width: 991px)
+                {
+                .page-child-#{index} {
+                background: transparent url(#{item.mainImage}) no-repeat scroll center center;
+                background-size: cover;
+                }
+                }
+                @media screen and (max-width: 767px)
+                {
+                .page-child-#{index} {
+                background: transparent url(#{item.mainImage}) no-repeat scroll center center;
+                background-size: cover;
+                }
+                }
+            style(type='text/css').
+                @media screen and (min-width: 1200px)
+                {
+                .page-child-box-#{index} {
+                background: transparent url(#{item.smallImage}) no-repeat scroll center center;
+                background-size: cover;
+                }
+                }
+                @media screen and (max-width: 1199px)
+                {
+                .page-child-box-#{index} {
+                background: transparent url(#{item.smallImage}) no-repeat scroll center center;
+                background-size: cover;
+                }
+                }
+                @media screen and (max-width: 991px)
+                {
+                .page-child-box-#{index} {
+                background: transparent url(#{item.smallImage}) no-repeat scroll center center;
+                background-size: cover;
+                }
+                }
+                @media screen and (max-width: 767px)
+                {
+                .page-child-box-#{index} {
+                background: transparent url(#{item.smallImage}) no-repeat scroll center center;
+                background-size: cover;
+                }
+                }
+            .header-image(class='page-child-' + index, style='height: 653px;')
+                .text-left
+                    .bold
+                    div(style='text-align: right;')
+                .text-right
+                    div
+                        .title.pt-serif
+                            | !{item.titleHtml}
+                        .h1.roboto #{item.subtitle}
+                        .h2.pt-serif
+                            | #{item.customer}
+                        .h3.roboto
+                        .otherInfo
+                            .products-title.roboto produse
+                            ul.product-list
+                                each p in item.products
+                                    li.name.pt-serif
+                                        a(href=p.url) #{p.name}
+                                    li.descr.roboto #{p.title}
+                            .page-child-box(class='page-child-box-' + index, style='background-position: right bottom; background-size: cover; height: 150px;')
+
+
+        include includes/footer.jade

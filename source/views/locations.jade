@@ -1,0 +1,29 @@
+doctype html
+html(lang='ro')
+  include includes/head.jade
+  body.it.layout-15.page-27
+    include includes/top-menu.jade
+
+    .container-fluid.mottura-point
+      .container.page
+        .row
+          .container.searchMap
+            .col-xs-16.col-sm-10.col-sm-offset-3
+              .mostsearched.roboto / MOTTURA POINT
+              .searchMap
+                input#search-point.inputsearch.pt-serif(type='text', placeholder='search', autocomplete='off')
+                input.submitsearch.pt-serif(type='submit', value='GO >')
+              .mtSearchMini.marker.montserrat
+                span#current-location
+                  i.fa.fa-map-marker.fa-2x
+                  |  Usa la posizione corrente
+              .mtSearchMini.lookingfor.montserrat
+                | Stai cercando un MOTTURA POINT
+                br
+                |                         Inserisci il CAP o la città per iniziare la ricerca.
+        .row(style='margin-bottom:30px')
+          .container
+            .col-xs-16.col-sm-10.col-sm-offset-3.googlemap.montserrat
+              #map-mottura-point(style='position: relative; overflow: hidden;')
+
+    include includes/footer.jade

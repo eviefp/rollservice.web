@@ -1,0 +1,175 @@
+{
+    "portofolio": [{
+        "url": "codebo-torino-italia",
+        "titleHtml": "HOT <strong>SPOT</strong>",
+        "subtitle": "Contract",
+        "customer": "Codebò - Torino - Italia",
+        "mainImage": "/it/images/lg/ch-1920x816-codebo-1-1.jpg",
+        "smallImage": "/it/images/lg/398x193-codebo-01-1.jpg",
+        "products": [{
+            "name": "Energy 450",
+            "title": "Tende a rullo",
+            "url": "http://www.mottura.com/it/prodotti/tende-tecniche/tende-a-rullo/energy-450"
+        }, {
+            "name": "Etnoscreen 1 F.R.",
+            "title": "Tecnici",
+            "url": "http://www.mottura.com/it/prodotti/tessuti/tecnici/etnoscreen-1-f-r"
+        }]
+    }, {
+        "url": "calzedonia-verona-italia",
+        "titleHtml": "",
+        "subtitle": "Contract",
+        "customer": "Calzedonia S.p.A. - Verona - Italia",
+        "mainImage": "/it/images/lg/1920x816-calzedonia-10.jpg",
+        "smallImage": "/it/images/lg/1920x816-calzedonia-4.jpg",
+        "products": [{
+            "name": "Garden 551-552",
+            "title": "Per lucernari",
+            "url": "http://www.mottura.com/it/prodotti/sistemi-professionali/per-lucernari/garden-551-552"
+        }, {
+            "name": "Blackout KR F.R.",
+            "title": "Moda",
+            "url": "http://www.mottura.com/it/prodotti/tessuti/moda/blackout-kr-f-r"
+        }]
+    }, {
+        "url": "hotel-w-barcelona",
+        "titleHtml": "",
+        "subtitle": "Hotel",
+        "customer": "Hotel W - Barcelona",
+        "mainImage": "/it/images/lg/1920x816-hotel-w-2.jpg",
+        "smallImage": "/it/images/lg/398x193-hotel-w-1.jpg",
+        "products": [{
+            "name": "Multiplo 412",
+            "title": "Arricciate a strappo",
+            "url": "http://www.mottura.com/it/prodotti/sistemi-professionali/arricciate-a-strappo/multiplo-412"
+        }, {
+            "name": "Energy 450",
+            "title": "Tende a rullo",
+            "url": "http://www.mottura.com/it/prodotti/tende-tecniche/tende-a-rullo/energy-450"
+        }]
+    }, {
+        "url": "the-aspire-tower-doha-qatar",
+        "titleHtml": "",
+        "subtitle": "Hotel",
+        "customer": "The Aspire Tower Doha - Qatar",
+        "mainImage": "/it/images/lg/ch-1920x816-the-aspire-tower-doha-1.jpg",
+        "smallImage": "/it/images/lg/ch-398x193-the-aspire-tower-doha-2.jpg",
+        "products": [{
+            "name": "Power 571/2 - 572/2",
+            "title": "Motorizzati",
+            "url": "http://www.mottura.com/it/prodotti/sistemi-professionali/motorizzati/header-power5712-5722"
+        }]
+    }, {
+        "url": "unito-torino-italia",
+        "titleHtml": "",
+        "subtitle": "Contract",
+        "customer": "UNITO - Torino - Italia",
+        "mainImage": "/it/images/lg/ch-1920x816-unito-torino-1.jpg",
+        "smallImage": "/it/images/lg/ch-398x193-unito-torino-3.jpg",
+        "products": [{
+            "name": "Sidewinder 8220",
+            "title": "Tende a rullo",
+            "url": "/produse/sidewinder-8220"
+        }, {
+            "name": "Sidewinder 8277",
+            "title": "Tende a rullo",
+            "url": "http://www.mottura.com/it/prodotti/tende-tecniche/tende-a-rullo/sidewinder-8277"
+        }, {
+            "name": "Energy 450",
+            "title": "Tende a rullo",
+            "url": "http://www.mottura.com/it/prodotti/tende-tecniche/tende-a-rullo/energy-450"
+        }]
+    }, {
+        "url": "rosewood-hotel-abu-dhabi",
+        "titleHtml": "",
+        "subtitle": "Hotel",
+        "customer": "Rosewood Hotel - Abu Dhabi",
+        "mainImage": "/it/images/lg/ch-1920x816-rosewood-hotel-1.jpg",
+        "smallImage": "/it/images/lg/ch-398x193-rosewood-hotel-2.jpg",
+        "products": [{
+            "name": "Power 571/2 - 572/2",
+            "title": "Motorizzati",
+            "url": "http://www.mottura.com/it/prodotti/sistemi-professionali/motorizzati/header-power5712-5722"
+        }, {
+            "name": "Rotary 444",
+            "title": "A pacchetto",
+            "url": "http://www.mottura.com/it/prodotti/sistemi-professionali/a-pacchetto/rotary-444"
+        }]
+    }, {
+        "url": "crowne-plaza-doha-qatar",
+        "titleHtml": "",
+        "subtitle": "Hotel",
+        "customer": "Crowne Plaza Doha - Qatar",
+        "mainImage": "/it/images/lg/ch-1920x816-crowne-plaza-doha-1-2.jpg",
+        "smallImage": "/it/images/lg/ch-398x193-crowne-plaza-doha-1.jpg",
+        "products": [{
+            "name": "Garden 551-552",
+            "title": "Per lucernari",
+            "url": "http://www.mottura.com/it/prodotti/sistemi-professionali/per-lucernari/garden-551-552"
+        }]
+    }, {
+        "url": "mumac-binasco-italia",
+        "titleHtml": "",
+        "subtitle": "Contract",
+        "customer": "MUMAC - Binasco (MI) - Italia",
+        "mainImage": "/it/images/lg/ch-1920x816-mumac-1.jpg",
+        "smallImage": "/it/images/lg/ch-398x193-mumac-1.jpg",
+        "products": [{
+            "name": "Energy 450",
+            "title": "Tende a rullo",
+            "url": "http://www.mottura.com/it/prodotti/tende-tecniche/tende-a-rullo/energy-450"
+        }, {
+            "name": "M2net R.F. Transmitters",
+            "title": "Automatismi",
+            "url": "http://www.mottura.com/it/prodotti/automatismi/r-f"
+        }]
+    }, {
+        "url": "jumeirah-beach-hotel-dubai",
+        "titleHtml": "",
+        "subtitle": "Hotel",
+        "customer": "Jumeirah Beach Hotel - Dubai",
+        "mainImage": "/it/images/lg/ch-1920x816-jumeirah-beach-hotel-01-1.jpg",
+        "smallImage": "/it/images/lg/ch-398x193-jumeirah-beach-hotel-02.jpg",
+        "products": [{
+            "name": "Power 571/1 - 572/1",
+            "title": "Motorizzati",
+            "url": "http://www.mottura.com/it/prodotti/sistemi-professionali/motorizzati/power-571-572"
+        }, {
+            "name": "Garden 451-452",
+            "title": "Per lucernari",
+            "url": "http://www.mottura.com/it/prodotti/sistemi-professionali/per-lucernari/garden-451-452"
+        }]
+    }, {
+        "url": "waldorf-astoria-ras-al-khaimah-u-a-e",
+        "titleHtml": "",
+        "subtitle": "Hotel",
+        "customer": "Waldorf Astoria - Ras al Khaimah U.A.E.",
+        "mainImage": "/it/images/lg/ch-1920x816-waldorf-astoria-1.jpg",
+        "smallImage": "/it/images/lg/ch-398x193-waldorf-astoria-1.jpg",
+        "products": [{
+            "name": "Arco 490",
+            "title": "Arricciate con corde",
+            "url": "/produse/arco-490"
+        }, {
+            "name": "Multiplo 412",
+            "title": "Arricciate a strappo",
+            "url": "http://www.mottura.com/it/prodotti/sistemi-professionali/arricciate-a-strappo/multiplo-412"
+        }, {
+            "name": "Power 571/1 - 572/1",
+            "title": "Motorizzati",
+            "url": "http://www.mottura.com/it/prodotti/sistemi-professionali/motorizzati/power-571-572"
+        }]
+    }, {
+        "url": "london-hilton-on-park-lane-regno-unito",
+        "titleHtml": "",
+        "subtitle": "Hotel",
+        "customer": "London Hilton on Park Lane - Regno Unito",
+        "mainImage": "/it/images/lg/ch-1920x816-london-hilton-on-park-lane-1-1.jpg",
+        "smallImage": "/it/images/lg/ch-398x193-london-hilto-on-park-lane-1.jpg",
+        "products": [{
+            "name": "Energy 450",
+            "title": "Tende a rullo",
+            "url": "http://www.mottura.com/it/prodotti/tende-tecniche/tende-a-rullo/energy-450"
+        }]
+    }]
+}

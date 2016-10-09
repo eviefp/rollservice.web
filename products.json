@@ -1,0 +1,75 @@
+{
+    "products": [{
+        "url": "modulo-105",
+        "name": "Modulo 105",
+        "title": "Arricciate con corde",
+        "description": "SISTEMA PER TENDE ARRICCIATE AD USO DOMESTICO E ALBERGHIERO",
+        "slideShow": [],
+        "paragraphs": []
+    }, {
+        "url": "modulo-205",
+        "name": "Modulo 205",
+        "title": "Arricciate con corde",
+        "description": "SISTEMA PER TENDE ARRICCIATE AD USO DOMESTICO E ALBERGHIERO",
+        "slideShow": [],
+        "paragraphs": []
+    }, {
+        "url": "surf-311",
+        "name": "Surf 311",
+        "title": "Arricciate con corde",
+        "description": "SISTEMA ULTRAPIATTO MONOCANALE PER TENDE ARRICCIATE AD USO PRINCIPALMENTE DOMESTICO",
+        "slideShow": [],
+        "paragraphs": []
+    }, {
+        "url": "surf-324",
+        "name": "Surf 324",
+        "title": "Arricciate con corde",
+        "description": "SISTEMA PER TENDE ARRICCIATE AD USO DOMESTICO E ALBERGHIERO",
+        "slideShow": [],
+        "paragraphs": []
+    }, {
+        "url": "arco-470",
+        "name": "Arco 470",
+        "title": "Arricciate con corde",
+        "description": "SISTEMA PER TENDE ARRICCIATE INDICATO PER AMBIENTI DOMESTICI E PROFESSIONALI",
+        "slideShow": [{
+            "url": "/it/images/lg/arco470-1.jpg",
+            "alt": "Arco470_1"
+        }, {
+            "url": "/it/images/lg/arco470-2.jpg",
+            "alt": "Arco470_2"
+        }, {
+            "url": "/it/images/lg/arco470-3.jpg",
+            "alt": "Arco470_3"
+        }],
+        "paragraphs": ["Azionamento con corde.L’apertura della tenda può essere centrale, laterale, multipla", "o asimmetrica. Il sistema è indicato per installazioni a soffitto ed a parete.", "Lo scorrimento delle corde d’azionamento in canali indipendenti paralleli permette la realizzazione di sistemi curvi a 90° o centinati ad ampio", "raggio, garantendo un’ottima scorrevolezza."]
+    }, {
+        "url": "separe-459",
+        "name": "Separe 459",
+        "title": "Arricciate con corde",
+        "description": "SISTEMA CURVABILE PER TENDE ARRICCIATE AD USO SEPARAZIONE DI AMBIENTI INDICATO PER DOCCE, AMBIENTI PROFESSIONALI ED OSPEDALIERI",
+        "slideShow": [],
+        "paragraphs": []
+    }, {
+        "url": "sidewinder-8240",
+        "name": "Sidewinder 8240",
+        "title": "TENDE A RULLO",
+        "description": "TENDE A RULLO CON AZIONAMENTO A CATENELLA",
+        "slideShow": [],
+        "paragraphs": []
+    }, {
+        "url": "sidewinder-8220",
+        "name": "Sidewinder 8220",
+        "title": "TENDE A RULLO",
+        "description": "TENDE A RULLO CON AZIONAMENTO A CATENELLA",
+        "slideShow": [],
+        "paragraphs": []
+    }, {
+        "url": "basic-441",
+        "name": "Basic 441",
+        "title": "A PACCHETTO",
+        "description": "SISTEMA PER TENDE A PACCHETTO ULTRAPIATTO AD USO DOMESTICO CON COMANDO A CORDA, PARTICOLARMENTE ADATTO PER INSTALLAZIONE SU SERRAMENTO",
+        "slideShow": [],
+        "paragraphs": []
+    }]
+}

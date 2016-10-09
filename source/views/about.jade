@@ -1,0 +1,198 @@
+doctype html
+html(lang='ro')
+    include includes/head.jade
+    body.it.layout-8.page-23
+        include includes/top-menu.jade
+
+        style(type='text/css').
+            @media screen and (min-width: 1200px)
+            {
+            .header-image {
+            background: transparent url("/it/images/lg/banner-home-836-1.jpg") no-repeat scroll center center;
+            background-size: cover;
+            }
+            }
+            @media screen and (max-width: 1199px)
+            {
+            .header-image {
+            background: transparent url("/it/images/lg/banner-home-836-1.jpg") no-repeat scroll center center;
+            background-size: cover;
+            }
+            }
+            @media screen and (max-width: 991px)
+            {
+            .header-image {
+            background: transparent url("/it/images/lg/banner-home-836-1.jpg") no-repeat scroll center center;
+            background-size: cover;
+            }
+            }
+            @media screen and (max-width: 767px)
+            {
+            .header-image {
+            background: transparent url("/it/images/lg/banner-home-836-1.jpg") no-repeat scroll center center;
+            background-size: cover;
+            }
+            }
+
+
+        .cms-page.with-background.corporate
+            .box.image.header-image
+                .text.center
+                    div
+                        h1.h1.roboto(data-target='.content-1') Corporate
+                        h1.h1.roboto.h1-off(data-target='.content-2', style='margin-left: 20px;') Timeline
+                    .content-1
+                        h2 Chi siamo
+                        p
+                            | Dal 1963 Mottura si occupa della decorazione della finestra, prima come produttore di mantovane in legno, poi come protagonista a 360 gradi in questo settore, grazie ad un programma tecnologico costantemente all'avanguardia (sviluppato negli ultimi vent'anni), avente un solo ed unico obbiettivo: offrire agli specialisti del settore la soluzione tecnologica più adatta per ogni tipo di applicazione. Tecnologia poi trasferita, nel corso dell'ultimo decennio, alle tende tecniche e certificata attraverso numerosi brevetti industriali europei, che hanno così dato al marchio Mottura una risonanza internazionale. Mottura ha sviluppato in parallelo alla propria attività prettamente tecnologica, anche l'aspetto tecnico-creativo dei sistemi per tende: la Linea Decorativa, nata negli anni settanta, oggi comprende una gamma di oltre mille diverse soluzioni. In seguito, nei primi anni novanta, come completamento di tale strategia, venne creato Atelier Mottura: l'editoria tessile di alta qualità che dona al marchio Mottura una significativa presenza in questo importante settore.
+                            br
+                            br
+                        h2 Mottura oggi
+                        p
+                            | Mottura è oggi un'azienda con una notorietà a livello mondiale ed è universalmente riconosciuta come una delle migliori espressioni industriali italiane del settore. Contiamo su quattro sedi operative europee e siamo presenti in oltre 70 paesi del mondo con un puntuale servizio di assistenza pre e post-vendita. I nostri prodotti vengono spesso preferiti da designer ed architetti che affidano la loro professionalità ai nostri sistemi. Collaboriamo in tutta Europa a realizzazioni architettoniche prestigiose che danno lustro al nostro prodotto esaltandone le qualità. Investiamo costantemente per innovare, cercando soluzioni esclusive finalizzate a prestazioni migliori, offrendo quel reale valore aggiunto che distingue il prodotto di qualità da quello di massa. Operiamo per dare ai nostri specialisti gli strumenti di comunicazione più adatti per suggerire la migliore soluzione tecnologica. È un nostro quotidiano impegno percorrere le strade talvolta più difficili, facendo della soddisfazione del nostro cliente il fine del nostro operato.
+                        div(style='margin-top:20px;text-align:center')
+                            img.pointer.lora.italic.md-trigger(style='max-width:100%;', data-modal='modal-23', src='/templates/images/frontend/video-corporate-500.jpg', title='Video', alt='Video')
+                        #modal-23.md-modal.md-effect-1.md-big
+                            .md-content
+                                div
+                                    // <button class="md-close">Close me!</button>
+                                    button.md-close
+                                        i.fa.fa-times-circle.fa-2x
+                                    iframe.youtube(width='902', height='507', src='https://www.youtube.com/embed/0wDX7TXd-WE', frameborder='0', allowfullscreen='')
+                    .content-2(style='display: none;')
+                        h2.pt-serif(style='text-transform: none;') Tecnologia e creatività
+                        #timeline(style='width: 1002px;')
+                            div(style="background: #01333c url('/templates/images/frontend/timeline/dot.gif') no-repeat scroll center 74px;")
+                                ul#dates(style='width: 1640px; margin-left: 451px;')
+                                    li
+                                        a.selected(href='#1963') 1963
+                                    li
+                                        a(href='#1977') 1977
+                                    li
+                                        a(href='#1983') 1983
+                                    li
+                                        a(href='#1987') 1987
+                                    li
+                                        a(href='#1989') 1989
+                                    li
+                                        a(href='#1991') 1991
+                                    li
+                                        a(href='#1992') 1992
+                                    li
+                                        a(href='#1997') 1997
+                                    li
+                                        a(href='#1998') 1998
+                                    li
+                                        a(href='#2000') 2000
+                                    li
+                                        a(href='#2002') 2002
+                                    li
+                                        a(href='#2007') 2007
+                                    li
+                                        a(href='#2009') 2009
+                                    li
+                                        a(href='#2010') 2010
+                                    li
+                                        a(href='#2014') 2014
+                                    li
+                                        a(href='#2015') 2015
+                            ul#issues(style='width: 16032px; margin-left: 0px;')
+                                li#1963.selected(style='width: 1002px; opacity: 1;')
+                                    .row
+                                        .col-xs-16.col-sm-8
+                                            img.img-responsive(src='/templates/images/frontend/timeline/1963.png')
+                                        .col-xs-16.col-sm-8.center
+                                            p Fondazione dell’Azienda a Torino
+                                li#1977(style='width: 1002px; opacity: 0.2;')
+                                    .row
+                                        .col-xs-16.col-sm-8
+                                            img.img-responsive(src='/templates/images/frontend/timeline/1977.png')
+                                        .col-xs-16.col-sm-8.center
+                                            p Apertura dello stabilimento principale di San Giusto Canavese
+                                li#1983(style='width: 1002px; opacity: 0.2;')
+                                    .row
+                                        .col-xs-16.col-sm-8
+                                            img.img-responsive(src='/templates/images/frontend/timeline/1983.png')
+                                        .col-xs-16.col-sm-8.center
+                                            p Inizio della produzione di sistemi in alluminio
+                                li#1987(style='width: 1002px; opacity: 0.2;')
+                                    .row
+                                        .col-xs-16.col-sm-8
+                                            img.img-responsive(src='/templates/images/frontend/timeline/1987.png')
+                                        .col-xs-16.col-sm-8.center
+                                            p Presentazione dei nuovi sistemi di tenda a rullo Slow con brevetto europeo
+                                li#1989(style='width: 1002px; opacity: 0.2;')
+                                    .row
+                                        .col-xs-16.col-sm-8
+                                            img.img-responsive(src='/templates/images/frontend/timeline/1989.png')
+                                        .col-xs-16.col-sm-8.center
+                                            p Istituzione di Mottura España S.A. e Mottura NV, Belgio 
+                                li#1991(style='width: 1002px; opacity: 0.2;')
+                                    .row
+                                        .col-xs-16.col-sm-8
+                                            img.img-responsive(src='/templates/images/frontend/timeline/1991.png')
+                                        .col-xs-16.col-sm-8.center
+                                            p
+                                                | Apertura nello stabilimento di San Giusto del reparto stampaggio per la produzione dei componenti in plastica
+                                li#1992(style='width: 1002px; opacity: 0.2;')
+                                    .row
+                                        .col-xs-16.col-sm-8
+                                            img.img-responsive(src='/templates/images/frontend/timeline/1992.png')
+                                        .col-xs-16.col-sm-8.center
+                                            p Nasce l’Editoria Tessile Atelier Mottura 
+                                li#1997(style='width: 1002px; opacity: 0.2;')
+                                    .row
+                                        .col-xs-16.col-sm-8
+                                            img.img-responsive(src='/templates/images/frontend/timeline/1997.png')
+                                        .col-xs-16.col-sm-8.center
+                                            p Mottura S.p.A. ottiene la certificazione ISO 9001
+                                li#1998(style='width: 1002px; opacity: 0.2;')
+                                    .row
+                                        .col-xs-16.col-sm-8
+                                            img.img-responsive(src='/templates/images/frontend/timeline/1998.png')
+                                        .col-xs-16.col-sm-8.center
+                                            p Istituzione di Mottura Francia S.A.R.L. 
+                                li#2000(style='width: 1002px; opacity: 0.2;')
+                                    .row
+                                        .col-xs-16.col-sm-8
+                                            img.img-responsive(src='/templates/images/frontend/timeline/2000.png')
+                                        .col-xs-16.col-sm-8.center
+                                            p Ampliamento degli stabilimenti di San Giusto
+                                li#2002(style='width: 1002px; opacity: 0.2;')
+                                    .row
+                                        .col-xs-16.col-sm-8
+                                            img.img-responsive(src='/templates/images/frontend/timeline/2002.png')
+                                        .col-xs-16.col-sm-8.center
+                                            p Rinnovamento globale della linea di produzione nello stabilimento di San Giusto
+                                li#2007(style='width: 1002px; opacity: 0.2;')
+                                    .row
+                                        .col-xs-16.col-sm-8
+                                            img.img-responsive(src='/templates/images/frontend/timeline/2007.png')
+                                        .col-xs-16.col-sm-8.center
+                                            p Introduzione di nuova tecnologia robotizzata nel reparto produzione stampi
+                                li#2009(style='width: 1002px; opacity: 0.2;')
+                                    .row
+                                        .col-xs-16.col-sm-8
+                                            img.img-responsive(src='/templates/images/frontend/timeline/2009.png')
+                                        .col-xs-16.col-sm-8.center
+                                            p Automazione nella produzione della componentistica
+                                li#2010(style='width: 1002px; opacity: 0.2;')
+                                    .row
+                                        .col-xs-16.col-sm-8
+                                            img.img-responsive(src='/templates/images/frontend/timeline/2010.png')
+                                        .col-xs-16.col-sm-8.center
+                                            p Nuovo ampliamento degli stabilimenti di San Giusto
+                                li#2014(style='width: 1002px; opacity: 0.2;')
+                                    .row
+                                        .col-xs-16.col-sm-8
+                                            img.img-responsive(src='/templates/images/frontend/timeline/2014.png')
+                                        .col-xs-16.col-sm-8.center
+                                            p Rinnovamento del reparto produzione rulli 
+                                li#2015(style='width: 1002px; opacity: 0.2;')
+                                    .row
+                                        .col-xs-16.col-sm-8
+                                            img.img-responsive(src='/templates/images/frontend/timeline/2015.png')
+                                        .col-xs-16.col-sm-8.center
+                                            p Implementazione tecnologie per il taglio dei tessuti 
+
+        include includes/footer.jade

@@ -1,0 +1,65 @@
+doctype html
+html(lang='ro')
+    include includes/head.jade
+
+    body.it.layout-7.page-276
+        include includes/top-menu.jade
+
+        .sub-menu
+            i#sub-menu-btn.fa.fa-bars
+            ul
+                li
+                    a(href='/produse')
+                        | Produse
+                li.active
+                    a(href='/produse/' + product.url)
+                        | #{product.name}
+
+        .header-image(class='page-child-' + product.url, style='height:653px')
+            .container-fluid
+                .caption
+                    .slider-title
+                        h2.roboto.bold
+                        h2.roboto
+                    .slider-desc
+                        h4.upper.bold
+        .container.page
+            .row.rows-page
+                .col-sm-4
+                    .slider-default
+                        each item, index in product.slideShow
+                            .slick-slide                                
+                                picture
+                                    source(src=item.url, srcset=item.url, media='(min-width: 1200px)')
+                                    source(src=item.url, srcset=item.url, media='(min-width: 992px)')
+                                    source(src=item.url, srcset=item.url, media='(min-width: 768px)')
+                                    source(src=item.url, srcset=item.url, media='(max-width: 767px)')
+                                    img.img-responsive(src=item.url, srcset=item.url, alt=item.alt)
+                    br
+                    .case-history
+                .col-sm-8.paddingColumnText
+                    h1.titlePageInt.pt-serif
+                        | #{product.name}
+                    br
+                    p.roboto.shortDescriptionInt #{product.description}
+                    div
+                        p
+                            each p in product.paragraphs
+                                | #{p}
+                                br
+                        p  
+                    .product
+                        a(target='_blank', href='/products/files/manual-' + product.url + '.pdf', title='Manual tehnic')
+                            img(src='/templates/images/frontend/scheda-tecnica.png', width='50px')
+                        a(target='_blank', href='/products/files/brosura-' + product.url + '.pdf', title='Broșură')
+                            img(src='/templates/images/frontend/brochure.png', width='50px')
+
+        a(href='/it/corporate/contatti')
+            .row.background-int
+                .pt-serif.first-row
+                    | Ora vivi 
+                    em la tua esperienza
+                .pt-serif.second-row Parla con il nostro team di esperti Mottura.
+
+
+        include includes/footer.jade

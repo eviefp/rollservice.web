@@ -1,0 +1,43 @@
+#legal_cookie_banner {
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	padding: 20px;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.8;
+	z-index: 1000;
+}
+
+#legal_cookie_banner .actions {
+}
+
+#legal_cookie_banner .actions div {
+	padding: 5px;
+	margin: 10px;
+	border-radius: 5px;
+	min-width: 200px;
+	display: inline-block;
+}
+
+#legal_cookie_banner .policy {
+	background-color: #1A3BCE;
+}
+
+#legal_cookie_banner .policy a {
+	color: #fff;
+}
+
+#legal_cookie_banner .agree {
+	background-color: #187C2E;
+}
+
+#legal_cookie_banner .agree a {
+	color: #fff;
+}
+
+.legal-privacy .checker {
+	display: inline;
+}

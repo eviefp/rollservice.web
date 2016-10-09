@@ -1,0 +1,35 @@
+head
+    if pageTitle
+        title #{pageTitle} | Roll Service - Mottura în România
+    else
+        title Roll Service - Mottura în România
+    meta(charset='utf-8')
+    meta(name='viewport', content='initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width')
+    meta(property='og:site_name', content='RollService')
+    meta(itemprop='name', property='og:title', content='Home')
+    meta(name='description', itemprop='description', property='og:description', content='RollService reprezentant Mottura în România.')
+    meta(name='keywords', content='')
+    link(rel='shortcut icon', type='image/x-icon', href='/favicon.ico')
+    link(rel='canonical', href='/home')
+    link(rel='stylesheet', type='text/css', href='/templates/third-parts/font-awesome-4.4.0/css/font-awesome.min.css', media='screen')
+    link(rel='stylesheet', type='text/css', href='/templates/third-parts/sweetalert/sweetalert.css', media='screen')
+    link(rel='stylesheet', type='text/css', href='/templates/css/frontend/bootstrap.min.css', media='screen')
+    link(rel='stylesheet', type='text/css', href='/templates/css/frontend/mottura.css', media='screen')
+    link(rel='stylesheet', type='text/css', href='/templates/css/frontend/mottura-mod.css', media='screen')
+    link(rel='stylesheet', type='text/css', href='/templates/css/frontend/slick/slick.css', media='screen')
+    link(rel='stylesheet', type='text/css', href='/templates/css/frontend/modal.css', media='screen')
+    link(rel='stylesheet', type='text/css', href='/templates/css/frontend/legal.css', media='screen')
+    link(rel='stylesheet', type='text/css', href='/templates/blocks/frontend/pagination/pagination.css', media='screen')
+    link(rel='stylesheet', type='text/css', href='/templates/css/frontend/videojs/video-js.css', media='screen')
+    link(rel='stylesheet', type='text/css', href='/templates/blocks/frontend/breadcrumb/breadcrumb.css', media='screen')
+    if isAbout
+        link(rel='stylesheet', type='text/css', href='/templates/css/frontend/timeline.css', media='screen')
+    if isProducts
+        link(rel='stylesheet', type='text/css', href='/templates/css/frontend/products.css', media='screen')
+    //- script.
+    //-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    //-   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    //-   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    //-   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    //-   ga('create', 'UA-75011367-1', 'auto');
+    //-   ga('send', 'pageview');

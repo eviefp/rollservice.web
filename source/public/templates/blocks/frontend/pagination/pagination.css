@@ -1,0 +1,21 @@
+ul.pagination {
+    list-style: none;
+    display: inline;
+}
+
+.pagination li {
+    display: inline;
+    padding: 3px 5px;
+}
+
+.pagination li.active {
+    background-color: #000;
+}
+
+.pagination li.active a {
+    color: #fff;
+}
+
+.pagination li.disabled, .pagination li.disabled a {
+    cursor: not-allowed;
+}

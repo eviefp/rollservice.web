@@ -1,0 +1,37 @@
+.top
+    //(class=typeof topFixed === "undefined" ? "" : "top-fixed")
+    .logo-container
+        a(href='/')
+            img(src='/templates/images/frontend/rollservice-logo.png')
+        .logo-text
+            // <a href="/"></a>
+    .dropdown.top-menu-lang-others
+        a(href='http://www.mottura.com/')
+            img(src='/templates/images/frontend/logo.png')
+    nav#nav-wrap
+        ul#nav.top-menu
+            li(class=typeof isHome === "undefined" ? "" : "active")
+                a(href='/acasa')
+                    | Acasă
+            li(class=typeof isAbout === "undefined" ? "" : "active")
+                a(href='/despre-noi')
+                    | Despre Noi
+            li(class=typeof isProducts === "undefined" ? "" : "active")
+                a(href='/produse')
+                    | Produse
+                i.fa.fa-angle-down(data-menu='menu-28')
+                ul#menu-28
+                    each p in products
+                        li
+                            a(href='/produse/' + p.url)
+                                | #{p.name}
+            li(class=typeof isPortofolio === "undefined" ? "" : "active")
+                a(href='/portofoliu')
+                    | Portofoliu
+            li(class=typeof isLocations === "undefined" ? "" : "active")
+                a(href='/filiale')
+                    | Filiale
+            li(class=typeof isContact === "undefined" ? "" : "active")
+                a(href='/contact')
+                    | Contact
+    .clearfix

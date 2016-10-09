@@ -1,0 +1,104 @@
+.footer-full.footer-full-2
+    .container.footer
+        .row.bottom
+            .footer-col.footer-col-1
+                ul.social
+                    li
+                        a(href='https://www.facebook.com/MotturaSpa?ref=hl', target='_blank')
+                            i.fa.fa-facebook
+                    li
+                        a(href='https://twitter.com/Mottura_Spa', target='_blank')
+                            i.fa.fa-twitter
+                    li
+                        a(href='https://www.youtube.com/channel/UCobhNF8H1zQ86JfB7SyaZ6A', target='_blank')
+                            i.fa.fa-youtube
+                    li
+                        a(href='https://plus.google.com/111602617461632439776/posts', target='_blank')
+                            i.fa.fa-google-plus
+                    li
+                        a(href='https://instagram.com/mottura_spa/', target='_blank')
+                            i.fa.fa-instagram
+                    li
+                        a(href='https://it.pinterest.com/mottura/', target='_blank')
+                            i.fa.fa-pinterest
+.container.credits
+    .col-sm-7.right(style='line-height: 23px; padding-top: 4px;')
+        strong ROLLSERVICE S.R.L.
+    .col-sm-7.col-sm-offset-2.left
+       | CUI: xxxxxxxx, Reg. Com. xxxxxxxx
+script(type='text/javascript', src='/templates/js/jquery.js')
+script(type='text/javascript', src='/templates/third-parts/sweetalert/sweetalert.min.js')
+script(type='text/javascript', src='/templates/js/messenger.js')
+script(type='text/javascript', src='/templates/js/frontend/bootstrap.min.js')
+script(type='text/javascript', src='/templates/js/frontend/global.js')
+script(type='text/javascript', src='/templates/js/frontend/menu.js')
+script(type='text/javascript', src='/templates/js/frontend/slick/slick.min.js')
+script(type='text/javascript', src='/templates/js/frontend/modal.js')
+script(type='text/javascript', src='/templates/third-parts/picturefill.min.js')
+script(type='text/javascript', src='/templates/js/frontend/mailup.js')
+script(type='text/javascript', src='/templates/js/frontend/legal.js')
+script(type='text/javascript', src='/templates/js/frontend/slider.js')
+if isAbout
+    script(type='text/javascript', src='/templates/js/frontend/corporate.js')    
+    script(type='text/javascript', src='/templates/js/frontend/jquery.timelinr-0.9.54.js')
+script(type='text/javascript', src='/templates/js/frontend/videojs/video-js.min.js')
+script(type='text/javascript', src='/templates/blocks/frontend/breadcrumb/breadcrumb.js')
+script(type='text/javascript', src='https://maps.googleapis.com/maps/api/js?libraries=places')
+script(type='text/javascript', src='/templates/js/GoogleMap.js')
+script(type='text/javascript').
+    var translations = {};
+    var mailup_list_required_message = "A quale lista vuoi iscriverti? Scegline almeno una cliccando sul bottone <i class=\"fa fa-list\"></i>";
+    var mailup_privacy_required_message = "Per poter proseguire devi accettare l'informativa sulla privacy";
+    var current = { languages_id: 1 };
+    $(document).ready(function () {
+    $('.slider-1').on('init', function(event, slick){
+    var slide = $('.slider-1 [data-slick-index="0"]');
+    var video = slide.find('.video-js');
+    if (video.size() > 0)
+    {
+    slick.slickPause();
+    var video_id = video.attr('id');
+    var player = videojs(video_id);
+    player.play();
+    player.on('ended', function() {
+    slick.slickPlay();
+    slick.slickNext();
+    });
+    }
+    });
+    $('.slider-1').on('afterChange', function(event, slick, currentSlide, nextSlide){
+    var slide = $('.slider-1 [data-slick-index="'+currentSlide+'"]');
+    //var w = slide.width();
+    //var h = Math.round(315 * w / 560);
+    //alert(w+'x'+h);
+    var video = slide.find('.video-js');
+    //alert(video.size()+' '+'.slider-1 [data-slick-index="'+currentSlide+'"]');
+    if (video.size() > 0)
+    {
+    //alert('pause');
+    slick.slickPause();
+    var video_id = video.attr('id');
+    //alert(video_id);
+    var player = videojs(video_id);
+    player.play();
+    player.on('ended', function() {
+    //alert('video terminato');
+    slick.slickPlay();
+    slick.slickNext();
+    });
+    //player.height(h);
+    //player.width(w);
+    }
+    });
+    $('.slider-1').slick({
+    infinite: true,
+    speed: 1000,
+    autoplaySpeed: 8000,
+    autoplay: true,
+    arrows:false,
+    fade:true,
+    cssEase: 'linear',
+    pauseOnHover: false,
+    adaptiveHeight: false
+    });
+    });

@@ -1,0 +1,67 @@
+a {
+	text-decoration: none;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	transition: 0.5s;
+}
+#timeline {
+	margin: 0px auto;
+	overflow: hidden;
+	position: relative;
+	/*background: url('/templates/images/frontend/timeline/dot.gif') left 60px repeat-x;*/
+}
+#dates {
+	height: 110px;
+	overflow: hidden;
+	padding-top: 25px;
+}
+#dates li {
+	list-style: none;
+	float: left;
+	width: 100px;
+	height: 60px;
+	text-align: center;
+	background: url('/templates/images/frontend/timeline/biggerdot.png') center bottom no-repeat;
+}
+.corporate .box.image #dates a {
+	font-size: 24px;
+	line-height: 38px;
+	padding-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
+	color: #666;
+	font-weight: bold;
+}
+
+.corporate .box.image #dates a.selected {
+	color: #fff;
+	font-size: 24px;
+}
+
+#issues {
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+#issues li {
+	list-style: none;
+	float: left;
+}
+
+#issues li p {
+	padding-left: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    #dates li {
+		width: 75px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#issues li p {
+		padding-left: 0px;
+		padding-top: 20px;
+	}
+}

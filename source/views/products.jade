@@ -1,0 +1,25 @@
+doctype html
+html(lang='ro')
+    include includes/head.jade
+    body.it.layout-1.page-66
+        include includes/top-menu.jade
+
+        each p in products
+            .box.image.center-table.page-child(class='page-child-' + p.url)
+                .center-cell
+                    .text.center-content
+                        .row
+                            .col-sm-10.padding-w40
+                                h1.h1 #{p.name}
+                                h2.h2
+                                    a(href='/produse/' + p.url) #{p.title}
+                                br
+                                p
+                                    | #{p.description}
+                                div
+                                    a(href='/produse/' + p.url) mai multe detalii
+                            .page-child-box.col-sm-6(class='page-child-box-' + p.url, style='background-position: right bottom; background-size: auto; height: 230px;')
+                                a(style='display: block; height: 100%; width: 100%;', href='/produse/' + p.url)
+
+
+        include includes/footer.jade
