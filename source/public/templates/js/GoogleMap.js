@@ -2,7 +2,7 @@
 
 function GoogleMap(map_id){
   var id = map_id;
-  var default_position = {lat: 45.29576, lng: 7.819541}; // mottura
+  var default_position = {lat: 44.3736487, lng: 26.1205073}; // mottura
   var markers = [];
   var map;
   var infowindow;
@@ -32,7 +32,7 @@ function GoogleMap(map_id){
 			      map = new google.maps.Map(document.getElementById(id), {
 			        center: default_position,
 			        scrollwheel: true,
-			        zoom: 7
+			        zoom: 12
 			      });
   		}//else
   			//throw ">> GoogleMap: id canvas map missing";

@@ -95,7 +95,8 @@ app.get('/filiale', function (req, res) {
     res.render('locations', {
         products: products,
         isLocations: true,
-        pageTitle: 'Filiale'
+        pageTitle: 'Filiale',
+        gmapsKey: process.env.gmapsKey
     });
 });
 
