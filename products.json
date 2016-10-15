@@ -2,36 +2,96 @@
     "products": [{
         "url": "modulo-105",
         "name": "Modulo 105",
-        "title": "Arricciate con corde",
-        "description": "SISTEMA PER TENDE ARRICCIATE AD USO DOMESTICO E ALBERGHIERO",
-        "slideShow": [],
-        "paragraphs": []
+        "title": "Acţionare cu sfoară",
+        "description": "SISTEM PENTRU PERDELE PENTRU UZ DOMESTIC SI HOTELIER",
+        "slideShow": [{
+            "url": "/it/images/lg/modulo105-1.jpg",
+            "alt": "Modulo105_1"
+        }, {
+            "url": "/it/images/lg/modulo105-2.jpg",
+            "alt": "Modulo105_2"
+        }, {
+            "url": "/it/images/lg/modulo105-3.jpg",
+            "alt": "Modulo105_3"
+        }],
+        "paragraphs": [
+            "Sistemul este destinat perdelelor cu mantovană aplicabilă prin Velcro pe un profil frontal; sistemul permite instalarea profilului Velcro cu ajutorul unor suporturi din plastic.",
+            "Acţionare cu sfoară sau manuala.",
+            "Deschiderea poate fi centrala, laterala, multipla sau asimetrica.",
+            "Sistemul este indicat pentru instalari pe tavan sau pe perete cu suporturi de prindere. Sforile de actionare se gasesc in canale paralele independente."
+        ]
     }, {
         "url": "modulo-205",
         "name": "Modulo 205",
-        "title": "Arricciate con corde",
-        "description": "SISTEMA PER TENDE ARRICCIATE AD USO DOMESTICO E ALBERGHIERO",
-        "slideShow": [],
-        "paragraphs": []
+        "title": "Acţionare cu sfoară",
+        "description": "SISTEM PENTRU PERDELE PENTRU UZ DOMESTIC SI HOTELIER",
+        "slideShow": [{
+            "url": "/it/images/lg/modulo-205-1.jpg",
+            "alt": "Modulo205_1"
+        }, {
+            "url": "/it/images/lg/modulo-205-2.jpg",
+            "alt": "Modulo205_2"
+        }, {
+            "url": "/it/images/lg/modulo-205-3.jpg",
+            "alt": "Modulo205_3"
+        }],
+        "paragraphs": [
+            "Sistemul este destinat pentru perdelele duble cu mantovană aplicabilă prin Velcro pe un profil frontal.",
+            "Sistemul permite instalarea profilului Velcro cu ajutorul unor suporturi din plastic.",
+            "Acţionare cu sfoară sau manuala. Sunt prevazute doua posibilitati:",
+            "• doua perdele cu actionare independenta",
+            "• o perdea cu deschidere mare sau cu deschidere totala.",
+            "Deschiderea poate fi centrala, laterala, multipla si asimetrica.",
+            "Instalarea pe tavan sau pe perete cu suporturi de prindere.",
+            "Sforile de actionare se gasesc in canale paralele independente."
+        ]
     }, {
         "url": "surf-311",
         "name": "Surf 311",
-        "title": "Arricciate con corde",
-        "description": "SISTEMA ULTRAPIATTO MONOCANALE PER TENDE ARRICCIATE AD USO PRINCIPALMENTE DOMESTICO",
-        "slideShow": [],
-        "paragraphs": []
+        "title": "Acţionare cu sfoară",
+        "description": "SISTEM ULTRA-PLAT PE UN SINGUR CANAL PENTRU PERDELE PENTRU UZ DOMESTIC IN PRINCIPAL",
+        "slideShow": [{
+            "url": "/it/images/lg/surf311-1.jpg",
+            "alt": "Surf311_1"
+        }, {
+            "url": "/it/images/lg/surf311-2.jpg",
+            "alt": "Surf311_2"
+        }, {
+            "url": "/it/images/lg/surf311-3.jpg",
+            "alt": "Surf311_3"
+        }],
+        "paragraphs": [
+            "Sistem destinat pentru aplicarea sub grinzile de lemn pentru suspendarea pe perete cu distantiere; sistemul este potrivit si pentru montarea pe randuri curbe.",
+            "Actionare cu sfoara. Deschiderea poate fi centrala, laterala, multipla sau asimetrica.",
+            "Instalare cu ajutorul suruburilor in lemn, cu suporturi declic din otel sau cu suporturi din plastic din acetat direct pe tavan.",
+            "Sforile de actionare se gasesc in canale paralele independente."
+        ]
     }, {
         "url": "surf-324",
         "name": "Surf 324",
-        "title": "Arricciate con corde",
-        "description": "SISTEMA PER TENDE ARRICCIATE AD USO DOMESTICO E ALBERGHIERO",
-        "slideShow": [],
-        "paragraphs": []
+        "title": "Acţionare cu sfoară",
+        "description": "SISTEM PENTRU PERDELE PENTRU UZ DOMESTIC SI HOTELIER",
+        "slideShow": [{
+            "url": "/it/images/lg/surf324-1.jpg",
+            "alt": "Surf324_1"
+        }, {
+            "url": "/it/images/lg/surf324-2.jpg",
+            "alt": "Surf324_2"
+        }, {
+            "url": "/it/images/lg/surf324-3.jpg",
+            "alt": "Surf324_3"
+        }],
+        "paragraphs": [
+            "Sistem destinat pentru perdelele sau draperii care necesita o ampla deschidere. Actionare cu sfoara si manuala.",
+            "Deschiderea poate fi centrala, laterala sau asimetrica.",
+            "Sistemul este indicat pentru instalarea pe tavan si perete.",
+            "Sforile de actionare se gasesc in canale paralele independente."
+        ]
     }, {
         "url": "arco-470",
         "name": "Arco 470",
-        "title": "Arricciate con corde",
-        "description": "SISTEMA PER TENDE ARRICCIATE INDICATO PER AMBIENTI DOMESTICI E PROFESSIONALI",
+        "title": "Acţionare cu sfoară",
+        "description": "SISTEM PENTRU PERDELE INDICAT PENTRU CASE SI BIROURI.",
         "slideShow": [{
             "url": "/it/images/lg/arco470-1.jpg",
             "alt": "Arco470_1"
@@ -42,34 +102,114 @@
             "url": "/it/images/lg/arco470-3.jpg",
             "alt": "Arco470_3"
         }],
-        "paragraphs": ["Azionamento con corde.L’apertura della tenda può essere centrale, laterale, multipla", "o asimmetrica. Il sistema è indicato per installazioni a soffitto ed a parete.", "Lo scorrimento delle corde d’azionamento in canali indipendenti paralleli permette la realizzazione di sistemi curvi a 90° o centinati ad ampio", "raggio, garantendo un’ottima scorrevolezza."]
+        "paragraphs": [
+            "Acţionare cu sfoară. Deschiderea perdelei poate fi centrala, laterala, multipla",
+            "sau asimetrica. Sistemul este indicat pentru montare pe tavan si pe perete.",
+            "Sforile de actionare care se gasesc in canale paralele independente permit realizarea unor sisteme curbate la 90 de grade sau larg ",
+            "arcuite, garantand o alunecare optima."
+        ]
     }, {
         "url": "separe-459",
         "name": "Separe 459",
-        "title": "Arricciate con corde",
-        "description": "SISTEMA CURVABILE PER TENDE ARRICCIATE AD USO SEPARAZIONE DI AMBIENTI INDICATO PER DOCCE, AMBIENTI PROFESSIONALI ED OSPEDALIERI",
-        "slideShow": [],
-        "paragraphs": []
+        "title": "Acţionare cu sfoară",
+        "description": "SISTEM CURBAT PENTRU PERDELE SEPARATOARE IN INCAPERI, INDICAT PENTRU CAMERE DE DUS, SPATII DE LUCRU SI CLINICI MEDICALE",
+        "slideShow": [{
+            "url": "/it/images/lg/separe459-1.jpg",
+            "alt": "Separe459_1"
+        }, {
+            "url": "/it/images/lg/separe459-2.jpg",
+            "alt": "Separe459_2"
+        }, {
+            "url": "/it/images/lg/separe459-3.jpg",
+            "alt": "Separe459_3"
+        }],
+        "paragraphs": [
+            "Actionare cu sfoara. Deschiderea perdelei poate fi centrala, laterala, multipla sau asimetrica.",
+            "Sistemul este indicat pentru montare pe tavan, pe perete sau in suspensie libera cu ajutorul tirantilor specifici, preferabil cu profilul la vedere.",
+            "Sistemul permite realizarea profilelor curbate la 90 de grade sau larg arcuite."
+        ]
     }, {
         "url": "sidewinder-8240",
         "name": "Sidewinder 8240",
-        "title": "TENDE A RULLO",
-        "description": "TENDE A RULLO CON AZIONAMENTO A CATENELLA",
-        "slideShow": [],
-        "paragraphs": []
+        "title": "Sistem de tip rulou",
+        "description": "SISTEM DE TIP RULOU ACTIONAT CU LANT",
+        "slideShow": [{
+            "url": "/it/images/lg/sidewinder-8240-8273-02.jpg",
+            "alt": "Sidewinder8240-1"
+        }, {
+            "url": "/it/images/lg/sidewinder-8240-8273-03.jpg",
+            "alt": "Sidewinder8240-2"
+        }, {
+            "url": "/it/images/lg/sidewinder-8240-8273-05.jpg",
+            "alt": "Sidewinder8240-3"
+        }, {
+            "url": "/it/images/lg/sidewinder-8240-8273-06.jpg",
+            "alt": "Sidewinder8240-4"
+        }, {
+            "url": "/it/images/lg/sidewinder-8240-8273-07.jpg",
+            "alt": "Sidewinder8240-5"
+        }, {
+            "url": "/it/images/lg/sidewinder-8240-8273-08.jpg",
+            "alt": "Sidewinder8240-6"
+        }, {
+            "url": "/it/images/lg/sidewinder-8240-8273-10.jpg",
+            "alt": "Sidewinder8240-7"
+        }, {
+            "url": "/it/images/lg/sidewinder-8240-8273-11.jpg",
+            "alt": "Sidewinder8240-8"
+        }, {
+            "url": "/it/images/lg/sidewinder-8240-8273-13.jpg",
+            "alt": "Sidewinder8240-9"
+        }, {
+            "url": "/it/images/lg/sidewinder-8240-8273-17.jpg",
+            "alt": "Sidewinder8240-10"
+        }, {
+            "url": "/it/images/lg/sidewinder-8240-8273-18.jpg",
+            "alt": "Sidewinder8240-11"
+        }, {
+            "url": "/it/images/lg/sidewinder-8240-8273-19.jpg",
+            "alt": "Sidewinder8240-12"
+        }, {
+            "url": "/it/images/lg/sidewinder-8240-8273-24.jpg",
+            "alt": "Sidewinder8240-13"
+        }],
+        "paragraphs": [
+            "Sistemul este dotat cu o actionare demultiplicata in interiorul canalului de bobinat (raport 1:4). Sistemul este indicat pentru perdele de tip rulou filtrante, obscure si reflectante.",
+            "Instalare pe tavan sau pe perete.",
+            "Canalul de bobinat si fundalul sunt din aluminiu.",
+            "Console din material termo-plastic cu proiectare de 36 si 60 mm."
+        ]
     }, {
         "url": "sidewinder-8220",
         "name": "Sidewinder 8220",
-        "title": "TENDE A RULLO",
-        "description": "TENDE A RULLO CON AZIONAMENTO A CATENELLA",
-        "slideShow": [],
-        "paragraphs": []
+        "title": "Sistem de tip rulou",
+        "description": "SISTEM DE TIP RULOU ACTIONAT CU LANT",
+        "slideShow": [{
+            "url": "/it/images/lg/sidewinder-8220-01.jpg",
+            "alt": "Sidewinder8220-1"
+        }],
+        "paragraphs": [
+            "Indicat pentru instalarea pe sistem de profile in case sau birouri.",
+            "Montare pe tavan sau pe perete.",
+            "Canalul de bobinat si fundalul sunt din aluminiu.",
+            "Prindere directa actionata cu lant.",
+            "Console din material termo-plastic cu proiectare de 30 mm si 42 mm."
+        ]
     }, {
         "url": "basic-441",
         "name": "Basic 441",
-        "title": "A PACCHETTO",
-        "description": "SISTEMA PER TENDE A PACCHETTO ULTRAPIATTO AD USO DOMESTICO CON COMANDO A CORDA, PARTICOLARMENTE ADATTO PER INSTALLAZIONE SU SERRAMENTO",
-        "slideShow": [],
-        "paragraphs": []
+        "title": "Sistem de tip pachet",
+        "description": "SISTEM PENTRU PERDELE ULTRA-PLAT PENTRU UZ CASNIC ACTIONAT DE SFOARA, RECOMANDAT IN SPECIAL PENTRU INSTALAREA PE SISTEM DE PROFILE",
+        "slideShow": [{
+            "url": "/it/images/lg/basic441-1.jpg",
+            "alt": "Basic441-1"
+        }, {
+            "url": "/it/images/lg/basic441-2.jpg",
+            "alt": "Basic441-2"
+        }],
+        "paragraphs": [
+            "Actionarea perdelei se face cu ajutorul corzilor din polietilena cu diametrul de 1 mm iar oprirea cu dispozitiv de tip ghilotina, cu actionare manuala.",
+            "Montarea, de preferat pe sistem de profile sau direct pe tavan, se realizeaza cu suporturi de declansare care usureaza indepartarea profilului."
+        ]
     }]
 }

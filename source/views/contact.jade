@@ -1,37 +1,221 @@
 doctype html
 html(lang='ro')
     include includes/head.jade
-    body.it.layout-21.page-98
+    body.it.layout-13.page-92
         include includes/top-menu.jade
 
-        .sub-menu
-            i#sub-menu-btn.fa.fa-bars
-            ul
-                li.active
-                    | Contact
+        .container-fluid.contacts
+            .container.page
+                #modal-map.md-modal.md-big.md-effect-1
+                    .md-content
+                        div
+                            button.md-close
+                                i.fa.fa-times-circle.fa-2x
+                            #map-contact
+                .col-sm-6.col-md-5
+                    #accordion.panel-group(role='tablist', aria-multiselectable='true')
+                        .panel.panel-default
+                            .panel-heading(role='tab')
+                                h4.panel-title
+                                    a(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapse-99', aria-expanded='true')
+                                        | ROLL SERVICE SRL - România
+                            #collapse-99.panel-collapse.collapse.in(role='tabpanel', aria-labelledby='headingOne', aria-expanded='true')
+                                .panel-body
+                                    p
+                                        | Bd. Metalurgiei, nr.23, Sector 4 - București
+                                    p
+                                        strong Tel.
+                                        |  +40 21 460.24.91
+                                    p
+                                        strong Fax.
+                                        |  +40 21 460.45.85
+                                    p
+                                        strong Email.
+                                        a(href='mailto:office@rollservice.ro') office@rollservice.ro
+                        .panel.panel-default
+                            .panel-heading(role='tab')
+                                h4.panel-title
+                                    a.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapse-0', aria-expanded='false')
+                                        | MOTTURA SPA - Italia
+                            #collapse-0.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingOne', aria-expanded='false', style='height: 193px;')
+                                .panel-body
+                                    p
+                                        | XXV Luglio, 1 - 10090 San Giusto Canavese Torino - Italia
+                                    p
+                                        strong Tel.
+                                        |  +39 0124 49.49.49
+                                    p
+                                        strong Fax.
+                                        |  +39 0124 49.49.18
+                                    p
+                                        strong Email.
+                                        a(href='mailto:mottura@mottura.com') mottura@mottura.com
 
-        .container
-            form#careers.careers(action='/index.php?controller=public-curriculum&action=save', method='POST', enctype='multipart/form-data')
-                input#languages_id(name='languages_id', value='1', type='hidden')
-                .row
-                    .col-sm-12.col-sm-offset-2(style='padding: 20px;')
-                        h1(style='margin-bottom: 20px;') Contact
-                        .form-group
-                            label.required.label-title(for='lastname') Cognome
-                            input#lastname.form-control(name='lastname', autocomplete='off', type='text', required='')
-                        .form-group
-                            label.required.label-title(for='firstname') Nome
-                            input#firstname.form-control(name='firstname', autocomplete='off', type='text', required='')
-                        .form-group
-                            label.required.label-title(for='email') Email
-                            input#email.form-control(name='email', autocomplete='off', type='email', required='')
-                        .form-group
-                            label.required.label-title(for='telephone') Telefono
-                            input#telephone.form-control(name='telephone', autocomplete='off', type='text', required='')
-                        .form-group
-                            label.required.label-title(for='message') Mesaj
-                            textarea#message.form-control(name='message', rows='8')
-                        .form-group(style='margin-top: 20px;')
-                            button#submit.btn.btn-send(type='submit', name='submit') Trimite
+                        .panel.panel-default
+                            .panel-heading(role='tab')
+                                h4.panel-title
+                                    a.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapse-1', aria-expanded='false')
+                                        | N.V. Mottura S.A. - Belgio
+                            #collapse-1.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingOne', aria-expanded='false')
+                                .panel-body
+                                    p
+                                        | Leuvensesteenweg, 202 - 3370 Boutersem Boutersem - Belgium
+                                    p
+                                        strong Tel.
+                                        |  (32) 16/72.03.66
+                                    p
+                                        strong Fax.
+                                        |  (32) 16/73.58.91
+                                    p
+                                        strong Email.
+                                        a(href='mailto:mottura@mottura.be') mottura@mottura.be
+                        .panel.panel-default
+                            .panel-heading(role='tab')
+                                h4.panel-title
+                                    a.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapse-2', aria-expanded='false')
+                                        | Karl Homanner - Germania
+                            #collapse-2.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingOne', aria-expanded='false')
+                                .panel-body
+                                    p
+                                        | Wassertorstr, 38 - 88316 Isny  im Allgäu - Germany
+                                    p
+                                        strong Tel.
+                                        |  +49 07562 3308
+                                    p
+                                        strong Fax.
+                                        |  +49 07562 55490
+                                    p
+                                        strong Email.
+                                        a(href='mailto:homanner@t-online.de') homanner@t-online.de
+                        .panel.panel-default
+                            .panel-heading(role='tab')
+                                h4.panel-title
+                                    a.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapse-3', aria-expanded='false')
+                                        | Graham Billington - Regno unito
+                            #collapse-3.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingOne', aria-expanded='false')
+                                .panel-body
+                                    p
+                                        | West Farm View Low Coniscliffe,  -  Darlington Co Durham - United Kingdom
+                                    p
+                                        strong Tel.
+                                        |  01325 353827 - m. 07860263352
+                                    p
+                                        strong Email.
+                                        a(href='mailto:gbillington@mottura.com') gbillington@mottura.com
+                        .panel.panel-default
+                            .panel-heading(role='tab')
+                                h4.panel-title
+                                    a.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapse-4', aria-expanded='false')
+                                        | Vladimir Broda - Repubblica Ceca
+                            #collapse-4.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingOne', aria-expanded='false')
+                                .panel-body
+                                    p
+                                        | Kubànskè nàm., 1271/5 -  Praha Vrsovice - Repubblica Ceca
+                                    p
+                                        strong Tel.
+                                        |  +420 602.205.439
+                                    p
+                                        strong Fax.
+                                        |  +420 267.312.591
+                                    p
+                                        strong Email.
+                                        a(href='mailto:vbroda@gmail.com') vbroda@gmail.com
+                        .panel.panel-default
+                            .panel-heading(role='tab')
+                                h4.panel-title
+                                    a.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapse-5', aria-expanded='false')
+                                        | APA SALVATORE - Serbia, Montenegro, Macedonia
+                            #collapse-5.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingOne', aria-expanded='false')
+                                .panel-body
+                                    p
+                                        | n.d.,  -  Zagreb - - Croatia
+                        .panel.panel-default
+                            .panel-heading(role='tab')
+                                h4.panel-title
+                                    a.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapse-6', aria-expanded='false')
+                                        | APA SALVATORE - Slovenia, Croazia, Bosnia
+                            #collapse-6.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingOne', aria-expanded='false')
+                                .panel-body
+                                    p
+                                        | n.d.,  -  Zagreb - - Croatia
+                        .panel.panel-default
+                            .panel-heading(role='tab')
+                                h4.panel-title
+                                    a.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapse-7', aria-expanded='false')
+                                        | Ayca Tekman - Turchia
+                            #collapse-7.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingOne', aria-expanded='false')
+                                .panel-body
+                                    p
+                                        | n.d.,  -  ISTANBUL - - TURCHIA
+                                    p
+                                        strong Email.
+                                        a(href='mailto:atekman@mottura.com') atekman@mottura.com
+                        .panel.panel-default
+                            .panel-heading(role='tab')
+                                h4.panel-title
+                                    a.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapse-8', aria-expanded='false')
+                                        | MOTTURA FRANCE S.A.R.L.
+                            #collapse-8.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingOne', aria-expanded='false')
+                                .panel-body
+                                    p
+                                        | Z.I. DE L'ARGILE LOT, 213 - 06370 Mouans-Sartoux . - Francia
+                                    p
+                                        strong Tel.
+                                        |  0492280657
+                                    p
+                                        strong Email.
+                                        a(href='mailto:flavio@mottura-france.fr') flavio@mottura-france.fr
+                        .panel.panel-default
+                            .panel-heading(role='tab')
+                                h4.panel-title
+                                    a.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapse-9', aria-expanded='false')
+                                        | MOTTURA ESPANA S.A.
+                            #collapse-9.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingOne', aria-expanded='false')
+                                .panel-body
+                                    p
+                                        | CALLE MOLLET 1 - 13, NAVE 4..POL.IND.PALOU NORD -AP.CORR.464, 1 - 13 - 08401 Granollers . - Spagna
+                                    p
+                                        strong Email.
+                                        a(href='mailto:cmaia@mottura.es') cmaia@mottura.es
+                .col-sm-10.col-md-11
+                    form#form-contacts(action='/contact', method='POST')
+                        .col-sm-6(style='padding:10px;')
+                            .form-group
+                                label.label-title(for='firstname') Prenume
+                                input#firstname.form-control(type='text', name='firstname', tabindex=1)
+                            .form-group
+                                label.label-title(for='company') Companie
+                                input#company.form-control(type='text', name='company', tabindex=3)
+                            .form-group
+                                label.label-title(for='city') Oraș
+                                input#city.form-control(type='text', name='city', tabindex=5)
+                            .form-group
+                                label.required.label-title(for='email') Email
+                                input#email.form-control(type='text', name='email', tabindex=7)
+                        .col-sm-6(style='padding:10px;')
+                            .form-group
+                                label.label-title(for='surname') Nume
+                                input#surname.form-control(type='text', name='surname', tabindex=2)
+                            .form-group
+                                label.label-title(for='address') Adresă
+                                input#address.form-control(type='text', name='address', tabindex=4)
+                            .form-group
+                                label.label-title(for='district') Județ
+                                input#district.form-control(type='text', name='district', tabindex=6)
+                            .form-group
+                                label.label-title(for='telephone') Telefon
+                                input#telephone.form-control(type='text', name='telephone', tabindex=8)                                
+                        .col-sm-12(style='padding:10px;')
+                            .form-group
+                                label.required.label-title(for='request') Întrebare
+                                textarea#request.form-control(name='request', rows='5', tabindex=9)
+                            br
+                            .form-group
+                                button.btn.btn-send(type='submit', name='send', tabindex=10) Trimite
+                            br
+                            if sent
+                                .form-group
+                                    label.label-title Mesajul a fost trimis
+
 
         include includes/footer.jade

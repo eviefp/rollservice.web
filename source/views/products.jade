@@ -10,9 +10,9 @@ html(lang='ro')
                     .text.center-content
                         .row
                             .col-sm-10.padding-w40
-                                h1.h1 #{p.name}
+                                h1.h1 #{p.title}
                                 h2.h2
-                                    a(href='/produse/' + p.url) #{p.title}
+                                    a(href='/produse/' + p.url) #{p.name}
                                 br
                                 p
                                     | #{p.description}
