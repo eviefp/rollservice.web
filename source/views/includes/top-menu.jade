@@ -21,10 +21,16 @@
                     | Produse
                 i.fa.fa-angle-down(data-menu='menu-28')
                 ul#menu-28
-                    each p in products
-                        li
-                            a(href='/produse/' + p.url)
-                                | #{p.name}
+                    li
+                        a(href='/produse-ro')
+                            | Asamblate în România
+                    li
+                         a(href='http://www.mottura.com/en/products', target='_blank')
+                            | Asamblate în Italia
+                    //- each p in products
+                    //-     li
+                    //-         a(href='/produse/' + p.url)
+                    //-             | #{p.name}
             li(class=typeof isPortofolio === "undefined" ? "" : "active")
                 a(href='/portofoliu')
                     | Portofoliu

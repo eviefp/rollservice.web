@@ -57,6 +57,14 @@ app.get('/produse', function (req, res) {
     });
 });
 
+app.get('/produse-ro', function (req, res) {
+    res.render('our-products', {
+        isProducts: true,
+        pageTitle: 'Produse',
+        products: products
+    });
+});
+
 app.get('/produse/:product', function (req, res) {
     var productName = req.params.product;
     var match = null;
