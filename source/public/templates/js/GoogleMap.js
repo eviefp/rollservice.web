@@ -2,7 +2,8 @@
 
 function GoogleMap(map_id){
   var id = map_id;
-  var default_position = {lat: 44.3736487, lng: 26.1205073}; // mottura
+  //https://www.google.ro/maps/place/Bulevardul+Metalurgiei+23,+Bucure%C8%99ti/@44.373698,26.1222414,21z/data=!4m13!1m7!3m6!1s0x40b1fe051807e3db:0x725b96b3ccba1ae1!2sBulevardul+Metalurgiei+23,+Bucure%C8%99ti!3b1!8m2!3d44.3736487!4d26.122696!3m4!1s0x40b1fe051807e3db:0x725b96b3ccba1ae1!8m2!3d44.3736487!4d26.122696
+  var default_position = {lat: 44.373848, lng: 26.122675};
   var markers = [];
   var map;
   var infowindow;

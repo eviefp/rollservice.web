@@ -5,15 +5,8 @@ html(lang='ro')
     body.it.layout-7.page-276
         include includes/top-menu.jade
 
-        .sub-menu
-            i#sub-menu-btn.fa.fa-bars
-            ul
-                li
-                    a(href='/produse-ro')
-                        | Produse
-                li.active
-                    a(href='/produse/' + product.url)
-                        | #{product.name}
+        .sub-menu(style="overflow: hidden")
+            i.fa.fa-bars(style="overflow: hidden")
 
         .header-image(class='page-child-' + product.url, style='height:653px')
             .container-fluid
@@ -51,11 +44,6 @@ html(lang='ro')
                             a(target='_blank', href='/products/files/manual-' + product.url + '.pdf', title='Manual tehnic')
                                 img(src='/templates/images/frontend/scheda-tecnica.png', width='50px')
                         p  
-                    .product
-                        a(target='_blank', href='/products/files/manual-' + product.url + '.pdf', title='Manual tehnic')
-                            img(src='/templates/images/frontend/scheda-tecnica.png', width='50px')
-                        a(target='_blank', href='/products/files/brosura-' + product.url + '.pdf', title='Broșură')
-                            img(src='/templates/images/frontend/brochure.png', width='50px')
 
         a(href='/contact')
             .row.background-int

@@ -5,17 +5,12 @@ html(lang='ro')
         include includes/top-menu.jade
 
         .sub-menu
-            i#sub-menu-btn.fa.fa-bars
-            ul
-                li
-                    | Parteneri
+            i.fa.fa-bars(style="overflow: hidden")
 
         style(type='text/css').
             .img-with-text {
                 text-align: center;
                 margin: 0 80px 0 80px;
-                width: 300px;
-                height: 300px;
                 float: left;
                 opacity: 0.7;                                
             }
@@ -33,9 +28,16 @@ html(lang='ro')
                 font-style: italic;
                 font-size: 32px;               
             }
-
             .background {
                 background: transparent url(/it/images/lg/wavecut.png) repeat scroll top left;
+            }
+            @media screen and (max-width: 600px) {
+                .img-with-text {
+                    margin: 0 5% 0 5%;
+                }
+                .img-with-text img {
+                    width: 755;
+                }
             }
 
         .box.image.center-table.page-child.background
