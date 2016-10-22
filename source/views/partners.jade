@@ -5,7 +5,7 @@ html(lang='ro')
         include includes/top-menu.jade
 
         .sub-menu(style="overflow: hidden")
-            i.fa.fa-bars(style="overflow: hidden")
+            i.fa(style="overflow: hidden")
 
         style(type='text/css').
             .img-with-text {
@@ -34,6 +34,7 @@ html(lang='ro')
             @media screen and (max-width: 600px) {
                 .img-with-text {
                     margin: 0 5% 0 5%;
+                    opacity: 1;
                 }
                 .img-with-text img {
                     width: 70% !important;
