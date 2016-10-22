@@ -47,6 +47,9 @@ html(lang='ro')
                             each p in product.paragraphs
                                 | #{p}
                                 br
+                            | Pentru detalii tehnice 
+                            a(target='_blank', href='/products/files/manual-' + product.url + '.pdf', title='Manual tehnic')
+                                img(src='/templates/images/frontend/scheda-tecnica.png', width='50px')
                         p  
                     .product
                         a(target='_blank', href='/products/files/manual-' + product.url + '.pdf', title='Manual tehnic')
