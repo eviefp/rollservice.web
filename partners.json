@@ -1,0 +1,11 @@
+{
+    "partners": [{
+        "name": "AAstudio",
+        "logo": "/it/images/lg/aalogo.jpg",
+        "url": "http://aastudio.ro"
+    }, {
+        "name": "Fabrica de Arhitectură",
+        "logo": "/it/images/lg/fda.png",        
+        "url": "https://www.facebook.com/fabricadearhitectura.fda"
+    }]
+}

@@ -1,0 +1,50 @@
+doctype html
+html(lang='ro')
+    include includes/head.jade
+    body.it.layout-1.page-66
+        include includes/top-menu.jade
+
+        .sub-menu
+            i#sub-menu-btn.fa.fa-bars
+            ul
+                li
+                    | Parteneri
+
+        style(type='text/css').
+            .img-with-text {
+                text-align: center;
+                margin: 0 80px 0 80px;
+                width: 300px;
+                height: 300px;
+                float: left;
+                opacity: 0.7;                                
+            }
+            .img-with-text:hover {
+                opacity: 1;
+            }            
+            .img-with-text img {
+                display: block;
+                margin: 0 auto;
+                height: 200px;
+            }
+            .img-with-text p {
+                margin-top: 20px;
+                font-family: 'Lora', serif;
+                font-style: italic;
+                font-size: 32px;               
+            }
+
+            .background {
+                background: transparent url(/it/images/lg/wavecut.png) repeat scroll top left;
+            }
+
+        .box.image.center-table.page-child.background
+            div(style="left: -50%; float: right; position: relative")
+                div(style="left: 50%; position: relative")
+                    each p in partners
+                        .img-with-text                        
+                            a(href=p.url, target="_blank")
+                                img(src=p.logo)
+                                p #{p.name}
+
+        include includes/footer.jade

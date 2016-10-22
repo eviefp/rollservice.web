@@ -4,6 +4,7 @@ var jade = require('jade');
 var nodemailer = require('nodemailer');
 var bodyParser = require('body-parser');
 var products = require('./products.json').products;
+var partners = require('./partners.json').partners;
 var portofolio = require('./portofolio.json').portofolio;
 var locations = require('./locations.json').locations;
 
@@ -96,6 +97,14 @@ app.get('/portofoliu', function (req, res) {
         products: products,
         isPortofolio: true,
         pageTitle: 'Portofoliu'
+    });
+});
+
+app.get('/parteneri', function (req, res) {
+    res.render('partners', {
+        isPartners: true,
+        pageTitle: 'Parteneri',
+        partners: partners
     });
 });
 
