@@ -23,7 +23,7 @@ var transporter = nodemailer.createTransport(process.env.emailTransportString);
 // setup e-mail data with unicode symbols
 var mailOptions = {
     from: '"RollService Contact" <rollservicesrl@gmail.com>', // sender address
-    to: '"RollService Contact" <rollservicesrl@gmail.com>', // list of receivers
+    to: 'office@rollservice.ro', // list of receivers
     subject: 'Contact website', // Subject line
     html: '' // html body
 };
